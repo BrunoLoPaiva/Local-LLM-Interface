@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinar IA - RondonGPT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="training-container">
+        <header>
+            <h1>Adicionar Novo Conhecimento</h1>
+            <p>Cole ou digite abaixo o texto que você deseja adicionar à base de conhecimento da IA.</p>
+        </header>
+
+        <form id="training-form">
+            <textarea id="text-input" placeholder="Cole seu texto aqui..."></textarea>
+            <button type="submit">Adicionar à Base</button>
+        </form>
+
+        <div id="status-container" class="hidden">
+            <div class="loader"></div>
+            <span id="status-text"></span>
+        </div>
+
+        <nav>
+            <a href="/" class="nav-link">Voltar para o Chat</a>
+        </nav>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="treino.js"></script>
+</body>
+</html>

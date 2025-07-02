@@ -1,0 +1,35 @@
+{
+  "name": "rondongpt-ollama-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "description": "A full-stack, private RAG (Retrieval-Augmented Generation) application powered by Ollama and LangChain.js, featuring a real-time web UI to chat with your local documents.",
+  "scripts": {
+    "start": "npm run dev",
+    "start:node": "node server.js",
+    "start:ollama": "ollama serve",
+    "dev": "concurrently \"npm:start:ollama\" \"npm:start:node\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ollama",
+    "langchain",
+    "rag",
+    "llm",
+    "ai"
+  ],
+  "author": "Bruno Paiva",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.47",
+    "@langchain/core": "^0.3.61",
+    "@langchain/ollama": "^0.2.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "langchain": "^0.3.29",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

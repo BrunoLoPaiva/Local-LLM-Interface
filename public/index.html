@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local LLM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="chat-container">
+        
+        <ul id="messages">
+            <li class="message ai-message">
+                <div class="message-content">Olá! Eu sou o LocalLLM, sua assistente virtual. Como posso ajudar?</div>
+            </li>
+        </ul>
+        <div id="status-container" class="hidden">
+            <div class="loader"></div>
+            <span id="status-text"></span>
+        </div>
+        <form id="form" action="">
+            <input id="input" autocomplete="off" placeholder="Digite sua pergunta..." />
+            <button type="submit" aria-label="Enviar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                    <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+                </svg>
+            </button>
+        </form>
+    </div>
+    
+    <div class="admin-link">
+        <a href="/treino">Adicionar Conhecimento</a>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+
+</html>
