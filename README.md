@@ -33,7 +33,7 @@ Uma aplicação full-stack de **RAG (Retrieval-Augmented Generation)**, privada 
 
 1.  **Clone o Repositório**:
     ```bash
-    git clone [https://github.com/BrunoLoPaiva/Local-LLM-Interface](https://github.com/BrunoLoPaiva/Local-LLM-Interface)
+    git clone https://github.com/BrunoLoPaiva/Local-LLM-Interface.git
     cd Local-LLM-Interface
     ```
 2.  **Instale as Dependências**:
@@ -96,7 +96,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1.  **Clone the Repository**
 
     ```bash
-    git clone [https://github.com/BrunoLoPaiva/Local-LLM-Interface](https://github.com/BrunoLoPaiva/Local-LLM-Interface)
+    git clone https://github.com/BrunoLoPaiva/Local-LLM-Interface.git
     cd Local-LLM-Interface
     ```
 
