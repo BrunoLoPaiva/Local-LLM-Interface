@@ -11,8 +11,6 @@
 
 Uma aplicação full-stack de **RAG (Retrieval-Augmented Generation)**, privada e offline-first. Este projeto fornece um framework completo para conversar com seus próprios documentos usando o poder de LLMs locais através do **Ollama**, com uma interface web profissional e interativa construída em Node.js.
 
-![GIF de demonstração da interface do chat](https://i.imgur.com/your-demo-image.gif)
-
 ### ✨ Funcionalidades
 
 - **100% Privado e Local**: Seus documentos e suas conversas nunca saem da sua máquina ou servidor. Toda a inteligência é processada localmente pelo Ollama.
@@ -62,7 +60,7 @@ Uma aplicação full-stack de **RAG (Retrieval-Augmented Generation)**, privada 
 
 A full-stack, private, and offline-first **RAG (Retrieval-Augmented Generation)** application. This project provides a complete framework to chat with your own documents using the power of local LLMs through **Ollama**, with a professional and real-time web interface built on Node.js.
 
-![Demo GIF of the chat interface](https://i.imgur.com/your-demo-image.gif)
+![Demo GIF of the chat interface](https://gifyu.com/image/bH1qd)
 
 ## ✨ Features
 
@@ -167,6 +165,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👤 Contact
 
-Bruno Paiva - [[Your LinkedIn/GitHub Profile](https://www.linkedin.com/in/bruno-lopes-de-paiva-a35ab4198/)] - brunolopesdepaiva@gmail.com
+Bruno Paiva - [[Bruno Lopes de Paiva](https://www.linkedin.com/in/bruno-lopes-de-paiva-a35ab4198/)] - brunolopesdepaiva@gmail.com
 
 Project Link: [https://github.com/BrunoLoPaiva/Local-LLM-Interface](https://github.com/BrunoLoPaiva/Local-LLM-Interface)
