@@ -60,7 +60,7 @@ Uma aplicação full-stack de **RAG (Retrieval-Augmented Generation)**, privada 
 
 A full-stack, private, and offline-first **RAG (Retrieval-Augmented Generation)** application. This project provides a complete framework to chat with your own documents using the power of local LLMs through **Ollama**, with a professional and real-time web interface built on Node.js.
 
-![Demo GIF of the chat interface](https://gifyu.com/image/bH1qd)
+![Demo GIF of the chat interface](https://github.com/BrunoLoPaiva/Local-LLM-Interface/blob/main/LocalLLM.gif?raw=true)
 
 ## ✨ Features
 
